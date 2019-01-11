@@ -9,3 +9,7 @@
   A technique to have multiple methods with the same name, but different types and numbers of parameters.
 
 + Difference between implement and extends
+  1. Implement\
+  It's same as extends but there are some differences. Implement must redefine parent method. And it can get multiple inheritance.
+  2. Extends\
+  Java doesn't support mulitiple inheritance!
