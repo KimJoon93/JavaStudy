@@ -13,3 +13,7 @@
   It's same as extends but there are some differences. Implement must redefine parent method. And it can get multiple inheritance.
   2. Extends\
   Java doesn't support mulitiple inheritance!
+
++ JVM, JRE, JDK
+  1. JVM\
+  Java Virtual Machine : It reads binary code
