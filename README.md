@@ -17,3 +17,8 @@
 + JVM, JRE, JDK
   1. JVM\
   Java Virtual Machine : It reads binary code
+  2. JRE\
+  Java Runtime Environment : The JVM requires library files and other files. The JRE implements the execution environment of the JVM.
+  3. JDK\
+  Java Development Kit : JRE + kit for development (javac + java)
+  
