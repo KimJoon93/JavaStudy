@@ -22,3 +22,6 @@
   3. JDK\
   Java Development Kit : JRE + kit for development (javac + java)
   
+  + What is Singleton?
+  1. Singleton\
+  Singleton is 
