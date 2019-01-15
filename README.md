@@ -22,6 +22,6 @@
   3. JDK\
   Java Development Kit : JRE + kit for development (javac + java)
   
-  + What is Singleton?
-  1. Singleton\
-  Singleton is 
+  + What is Singleton Pattern?
+  1. Singleton Pattern\
+  Singleton is a design pattern in which an application allocates memory for the first time (Static) and creates an instance in that memory when the application is started.
