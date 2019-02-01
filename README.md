@@ -26,6 +26,7 @@
   1. Singleton Pattern\
   Singleton is a design pattern in which an application allocates memory for the first time (Static) and creates an instance in that memory when the application is started.
  
-+ Difference between Abstract class and Interface?
++ Difference between Abstract class and Interface?\
+  Java can't override 2 methods.
   
   
