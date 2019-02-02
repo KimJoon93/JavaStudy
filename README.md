@@ -28,5 +28,32 @@
  
 + Difference between Abstract class and Interface?\
   Java can't override 2 methods.
-  
+  + Implicit Intent / Explicit Inent
+    1. Implicit Intent
+    ```
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        
+        StartActivity(intent);
+    ```
+    2. Explicit Intent
+    ```
+        Intent intent = new Intent(this, classname.class);
+        StartActivity(intent);
+    ```    
++ Difference between class and Interface?
+    1. Class(Fully implemented)
+        - contains state
+        - Methods are fully implemented
+    
+    2. Abstract Class(Partially implemented)
+        - Contains state
+        - Some methods are fully implemented
+        - Some methods are abstract
+    
+    3. Interface(Not implemented at all)
+        - No state
+        - All methods are abstract(Not implemented)
+        - Interface defines what a class should do but not how to do it.
+        - Think about Java class couldn't  get multiple inheritance.
+
   
