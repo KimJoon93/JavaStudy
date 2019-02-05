@@ -56,4 +56,46 @@
         - Interface defines what a class should do but not how to do it.
         - Think about Java class couldn't  get multiple inheritance.
 
++ Array Search
+    - How do we Search minimal speed in array
+
+    ```
+    public double search(double[] speed){
+        int size = speed.length;
+        double min = speed[0];
+        for(int i=1; i < size; i++){
+            if(speed[i]<min){
+                min = speed[i];
+            }
+        }
+    }
+    ```
++ Find longest name
+
+    ```
+    public String findLongestName(String [] names){
+    
+    int size = names.length;
+    String longestName = names[0];
+
+    for(int i=1; i<size; i++){
+        if(longestName.length() < names[i].length()){
+            longestName = names[i];
+            }
+        }
+    return longestName;
+    }
+    ```
+    - But there are problem with tie. If max size words are apple and grape than longestName returns the first array.
+
++ 2D arrays
+    ```
+    int total = 0;
+    for(int i = 0; i < 4; i++;){
+        for(int j=0; j<5; j++){
+            total += grades[i][j];
+        }
+    }
+    ```
+
   
