@@ -97,5 +97,9 @@
         }
     }
     ```
-
+    
++ Server Programming
+  - What is JSP? How to use?
+  - servelet to .java
+  - Difference between redirect and forward
   
